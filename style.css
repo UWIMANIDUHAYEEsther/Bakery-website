@@ -1,0 +1,105 @@
+* { box-sizing: border-box; }
+body { 
+    font-family: 'Georgia', serif; 
+    margin: 0; 
+    background-color: #fdf5e6; 
+    color: #5d4037; 
+}
+
+header { 
+    background: #8d6e63; 
+    color: white; 
+    padding: 40px; 
+    text-align: center; 
+    border-bottom: 5px solid #6d4c41; 
+}
+
+nav { 
+    background: #6d4c41; 
+    padding: 15px; 
+    text-align: center; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
+}
+nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+nav a:hover { color: #d7ccc8; }
+
+.container { display: flex; min-height: 500px; }
+aside { width: 20%; background: #efebe9; padding: 20px; border-right: 1px solid #d7ccc8; }
+main { flex: 1; padding: 40px; background: white; }
+.right-sidebar { width: 20%; background: #efebe9; padding: 20px; border-left: 1px solid #d7ccc8; }
+
+
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { border: 1px solid #d7ccc8; padding: 12px; }
+th { background-color: #8d6e63; color: white; }
+form { display: flex; flex-direction: column; max-width: 400px; }
+input, textarea { margin-bottom: 15px; padding: 10px; border: 1px solid #d7ccc8; }
+button { background: #6d4c41; color: white; padding: 10px; border: none; cursor: pointer; }
+
+
+footer { background: #5d4037; color: white; text-align: center; padding: 20px; }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-left, .sidebar-right {
+    width: 20%;
+    background-color: #efebe9;
+    padding: 20px;
+}
+
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info i {
+    color: #8d6e63;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to move to the next line */
+    justify-content: flex-start; /* Aligns items to the LEFT */
+    gap: 20px; /* Space between images */
+    margin-top: 20px;
+}
+
+.gallery-item {
+    width: 150px; /* Forces the small size you requested */
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%; /* Makes image fill the 150px container */
+    height: 150px;
+    object-fit: cover; /* Keeps images from looking stretched */
+    border-radius: 8px;
+    border: 2px solid #d7ccc8;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect when hovering */
+    border-color: #8d6e63;
+}
+
+.gallery-item p {
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #5d4037;
+}
