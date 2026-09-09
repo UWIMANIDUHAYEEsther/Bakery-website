@@ -6,13 +6,15 @@ A responsive multi-page bakery website built with HTML5 and CSS3. The website pr
 
 * Responsive design for different screen sizes
 * Multi-page website navigation
-* Bakery product/menu section
+* Bakery products/menu section
 * Image gallery
 * FAQ section
 * Contact form
+* Registration page
+* Blog page
 * Responsive navigation
 * Font Awesome icons
-* Structured and organized HTML and CSS
+* Clean and organized HTML and CSS
 
 ## Technologies Used
 
@@ -22,14 +24,20 @@ A responsive multi-page bakery website built with HTML5 and CSS3. The website pr
 
 ## Pages
 
-The website includes multiple pages, including:
+The website includes:
 
 * Home
 * About
-* Products/Menu
+* Products
 * Gallery
 * FAQ
 * Contact
+* Register
+* Blog
+
+## Live Website
+
+[View the live website](https://uwimaniduhayeesther.github.io/Bakery-website/)
 
 ## Purpose
 
@@ -37,4 +45,6 @@ This project was created to practice and demonstrate skills in building responsi
 
 ## Author
 
-Esther UWIMANIDUHAYE
+**Esther UWIMANIDUHAYE**
+
+
